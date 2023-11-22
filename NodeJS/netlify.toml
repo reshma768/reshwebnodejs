@@ -1,10 +1,10 @@
 [build]
   command = "npm install && npm run build"
-  publish = "public"
+  publish = "NODEJS/public"
 
 [[redirects]]
   from = "/"
-  to = "/index.html"
+  to = "public/index.html"
   status = 200
   force = true
 
