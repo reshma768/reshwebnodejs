@@ -1,0 +1,16 @@
+[build]
+  command = "npm install && npm run build"
+  publish = "public"
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+  force = true
+
+
+[[redirects]]
+  from = "/api"
+  to = "/api/db.json"
+  status = 200
+  force = true
